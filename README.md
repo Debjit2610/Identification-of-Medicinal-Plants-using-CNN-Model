@@ -36,5 +36,7 @@ ReLU (Rectified Linear Unit):
 𝑓(𝑥)=max(0,𝑥)
 f(x)=max(0,x). It introduces non-linearity into the model, enabling it to learn complex patterns.
 
+3. Output Layer
+Softmax Activation: Used in the output layer for classification tasks, it converts the raw output scores into probabilities, indicating the likelihood of each class.
 
 
