@@ -16,3 +16,12 @@ include accuracy.
  7. Once the model is trained and evaluated, we can use it to 
 predict the class labels of new unseen images of the 
 plants
+
+TECHNOLOGY STACK USED:
+Machine Learning
+ ⮚ Convolutional Neural Network
+ ⮚ Google Collab/Jupyter Notebook
+ ⮚ HTML 5 
+ ⮚ Python 3.9
+ ⮚ Flask
+
