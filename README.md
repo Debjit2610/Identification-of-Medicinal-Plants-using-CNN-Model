@@ -36,7 +36,15 @@ ReLU (Rectified Linear Unit):
 𝑓(𝑥)=max(0,𝑥)
 f(x)=max(0,x). It introduces non-linearity into the model, enabling it to learn complex patterns.
 
-3. Output Layer
+3. Pooling Layer
+Max Pooling: Taken the maximum value from each patch of the feature map (usually 2x2) to reduce spatial dimensions and computational load.
+Average Pooling: Taken the average value from each patch of the feature map.
+
+4. Fully Connected Layer
+Flattening: Converting the 2D feature maps into a 1D vector to feed into fully connected layers.
+Dense Layers: Traditional neural network layers where each neuron is connected to every neuron in the previous layer. These layers combine the features extracted by convolutional layers to make final predictions.
+
+5. Output Layer
 Softmax Activation: Used in the output layer for classification tasks, it converts the raw output scores into probabilities, indicating the likelihood of each class.
 
 
